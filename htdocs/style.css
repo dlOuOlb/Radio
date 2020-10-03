@@ -1,0 +1,39 @@
+HTML
+{
+	Display: Table; Height: 100%; Width: Auto; Margin: Auto; Tab-Size: 4;
+}
+
+Body
+{
+	Display: Table-Cell; Vertical-Align: Middle; Text-Align: Center;
+	Background-Color: Black; Color: LightGray;
+	Font-Size: Large; Font-Family: 'Arial', 'Helvetica', 'sans-serif';
+}
+
+#Author
+{
+	Outline: None; Text-Decoration: None; Color: PaleGreen;
+	Font-Size: XX-Large; Font-Family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+#Author:Hover, #Author:Focus
+{
+	Border-Bottom-Style: Dashed; Border-Bottom-Width: Thin;
+}
+
+Button.Radio
+{
+	Outline: None; Background: None; Cursor: Pointer;
+	Border-Style: Solid; Border-Width: Thin; Border-Radius: 4px; Border-Color: Transparent;
+	Color: Coral; Font-Size: X-Large; Font-Weight: Bolder; Font-Family: 'Courier New', 'Courier', 'monospace';
+}
+
+Button.Radio:Hover, Button.Radio:Focus
+{
+	Background-Color: Coral; Color: Black;
+}
+
+#Status
+{
+	Color: DeepSkyBlue; Font-Size: Large; Font-Family: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+}

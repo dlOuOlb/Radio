@@ -1,0 +1,9 @@
+Root = true
+
+[**]
+Indent_Style = Tab
+Indent_Size = 4
+End_Of_Line = LF
+CharSet = utf-8
+Trim_Trailing_Whitespace = true
+Insert_Final_NewLine = true
